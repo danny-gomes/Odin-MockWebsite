@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0s;
+    background-color: #434343;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.i_bet_you_just_inspected_elements_cheater {
+    color: white;
+}
+
+.i_bet_you_just_inspected_elements_cheater:focus {
+    color: white;
+}
+
+.hero-img {
+    height: auto;
+    width: 100px;
+    display: inline-block;
+}
