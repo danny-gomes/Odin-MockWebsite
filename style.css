@@ -11,11 +11,17 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #13abe6;
+}
+
+.section {
+    height: 40vh;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 
 nav ul {
@@ -30,15 +36,41 @@ nav ul li a{
 }
 
 .i_bet_you_just_inspected_elements_cheater {
-    color: white;
+    color: #13abe6;
 }
 
 .i_bet_you_just_inspected_elements_cheater:focus {
     color: white;
 }
 
-.hero-img {
-    height: auto;
-    width: 100px;
-    display: inline-block;
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hero>a {
+    display: block;
+    width: 350px;
+    text-decoration: none;
+    color: #13abe6;
+}
+
+.info {
+    flex-basis:30em;
+    flex-shrink: 1;
+}
+
+.info>p {
+    font-size: 14px;
+}
+
+.and {
+    color: #ffdb47;
+    text-decoration: underline;
+}
+
+.and:hover {
+    cursor: pointer;
 }
