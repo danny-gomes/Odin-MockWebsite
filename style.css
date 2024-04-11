@@ -132,9 +132,46 @@ nav ul li a{
 
 .cta {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .cta-container{
     background-color: #13abe6;
+    width: 45rem;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.cta-container>h3 {
+    margin-bottom: 0;
+}
+
+.p-button-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.cta-button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: 4rem;
+    background-color: #ffdb47;
+    color: black;
+    text-decoration: none;
 }
