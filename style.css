@@ -11,7 +11,8 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #13abe6;
+    background-color: #ffdb47;
+    color: black;
 }
 
 .section {
@@ -34,15 +35,14 @@ nav ul {
 
 nav ul li a{
     text-decoration: none;
-    color: white;
 }
 
 .i_bet_you_just_inspected_elements_cheater {
-    color: #13abe6;
+    color: #ffdb47;
 }
 
 .i_bet_you_just_inspected_elements_cheater:focus {
-    color: white;
+    color: black;
 }
 
 .hero {
@@ -174,4 +174,9 @@ nav ul li a{
     background-color: #ffdb47;
     color: black;
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-weight: 100;
 }
